@@ -7,3 +7,14 @@
 
 ## 相关
 
+
+## 联系我
+
+如果您有任何意见都可以随时联系我
+
+Github上留言：
+https://github.com/napoler/tmark_kg/issues
+
+邮箱：
+napoler2008{@}gmail.com
+

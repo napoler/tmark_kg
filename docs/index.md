@@ -32,6 +32,8 @@ BERT中注意力机制真的很强。
 | ------------ | ------------ |
 | [百度Ai开放数据](https://ai.baidu.com/broad/download?dataset=duconv)|找到Information Extraction和Knowledge Extraction下载就是了。一个信息提取，一个知识提取感觉差距都不是很多，规定了几十种关系，想要做到开放数据提取还要更多的标记才行。|
 | [tmark_Description开源描述标注](https://www.terrychan.org/tmark_Description/)|基于实体提取对应文章中的描述|
+| [openkg](http://openkg.cn/)|openkg里更多数据和工具|
+
 
 ## 标注数据（准备数据）
 这是一切的开始。[开源描述标注](https://www.terrychan.org/tmark_Description/)

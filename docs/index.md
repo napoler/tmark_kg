@@ -15,10 +15,16 @@ layout: default
 ## 相关
 
 ## 标注数据
-这是一切的开始。
+这是一切的开始。[开源描述标注](https://www.terrychan.org/tmark_Description/)
+
+标注工具
+https://github.com/t-web/ChineseAnnotator
+
+标注工具Ai_bert
+https://github.com/t-web/ChineseAnnotator/tree/Ai_bert 加入了自动提取实体和描述。
 
 
-[开源描述标注](https://www.terrychan.org/tmark_Description/)
+
 ### 格式BMES
 
 BMES

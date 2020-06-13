@@ -84,6 +84,13 @@ https://colab.research.google.com/drive/1Nlhh2vwlQdKleNMqpmLDBsAwrv_7NnrB
 
 | [句子相似](https://www.terrychan.org/transformers-SentenceSimilarity/)|利用预训练的中文模型实现基于bert的语义匹配模型 数据集为LCQMC官方数据|
 
+
+
+
+## 其他项目
+jiagu
+很强，可以做句子级别的知识提取
+
 ## 联系我
 
 如果您有任何意见都可以随时联系我

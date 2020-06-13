@@ -14,13 +14,18 @@ layout: default
 ## 会用到什么
 会用到什么命名实体，Bert，Trandformer，聚类，文本相似度。
 BERT中注意力机制真的很强。
-
+![alt text](https://raw.githubusercontent.com/napoler/tmark_kg/master/docs/src/640.png "BERT中注意力机制")
 ## 思路
 现有的很多知识提取大多是是从句子中提取的，但是文本中的数据往往是结构不全的，还有语义消解等等问题需要解决，引入BERT文章级别提取后就可以不用考虑这些了。
 
-
 https://colab.research.google.com/drive/1Nlhh2vwlQdKleNMqpmLDBsAwrv_7NnrB
 
+
+### 测试一下
+tmark_Description中测试的效果
+
+![alt text](https://raw.githubusercontent.com/napoler/tmark_Description/master/ner_train/static/pre_test.png "效果测试")
+已经可以提取出文章中关于边境牧羊犬的相关知识了。
 
 ## 标注数据
 这是一切的开始。[开源描述标注](https://www.terrychan.org/tmark_Description/)

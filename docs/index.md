@@ -33,7 +33,7 @@ https://colab.research.google.com/drive/1Nlhh2vwlQdKleNMqpmLDBsAwrv_7NnrB
 
 
 ### 测试一下
-tmark_Description中测试的效果
+使用tmark_Description数据训练的测试效果
 
 ![alt text](https://raw.githubusercontent.com/napoler/tmark_Description/master/ner_train/static/pre_test.png "效果测试")
 已经可以提取出文章中关于边境牧羊犬的相关知识了。

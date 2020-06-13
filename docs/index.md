@@ -17,6 +17,7 @@ BERT中注意力机制真的很强。
 ![alt text](https://raw.githubusercontent.com/napoler/tmark_kg/master/docs/src/640.png "BERT中注意力机制")
 ## 思路
 现有的很多知识提取大多是是从句子中提取的，但是文本中的数据往往是结构不全的，还有语义消解等等问题需要解决，引入BERT文章级别提取后就可以不用考虑这些了。
+直接让神经网络学到实体和知识点之间挂钩，至于各种指代词之类的同时也就不用考虑了。
 
 https://colab.research.google.com/drive/1Nlhh2vwlQdKleNMqpmLDBsAwrv_7NnrB
 

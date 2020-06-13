@@ -26,6 +26,11 @@ BERT中注意力机制真的很强。
 ## 文本数据（准备数据）
 这里应该是祭出爬虫的时候了。
 除了scrapy这个爬虫框架外，还可以引入基于密度的正文提取，只有这样子才可以做到泛化内容提取。
+## 现有数据
+百度Ai
+https://ai.baidu.com/broad/download?dataset=duconv
+
+找到Information Extraction下载就是了。
 
 
 ## 标注数据（准备数据）

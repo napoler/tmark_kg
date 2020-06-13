@@ -15,13 +15,24 @@ layout: default
 ## 相关
 
 ## 标注数据
+这是一切的开始。
 
+
+[开源描述标注](https://www.terrychan.org/tmark_Description/)
 ### 格式BMES
 
 BMES
 
 B表示一个词的词首位值，M表示一个词的中间位置，E表示一个词的末尾位置，S表示一个单独的字词。
 
+
+| [开源描述标注](https://www.terrychan.org/tmark_Description/)|基于实体提取对应文章中的描述|
+| [tkitMarker_bert描述标注](https://www.terrychan.org/tkitMarker_bert/)|使用bert做实体描述提取|
+
+
+##
+
+| [句子相似](https://www.terrychan.org/transformers-SentenceSimilarity/)|利用预训练的中文模型实现基于bert的语义匹配模型 数据集为LCQMC官方数据|
 
 ## 联系我
 

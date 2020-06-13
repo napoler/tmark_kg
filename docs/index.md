@@ -11,6 +11,7 @@ layout: default
 互联网上存在着海量的数据，尤其以文字为代表的自然语言更是一个十足的知识宝库，但是现如今很多知识的提取只能依赖于人类手工去整理效率真的没法说了。
 依赖于现如今深度学习的技术进步，让机器代替人类从这些海量的数据中提取有价值的信息变得越来越可行了。
 
+还有就是开放信息提取，而不是规定几十种特定关系的提取，那样子会很熟限制的，毕竟文本数据是海量的。
 ## 会用到什么
 会用到什么
 
@@ -27,11 +28,9 @@ BERT中注意力机制真的很强。
 这里应该是祭出爬虫的时候了。
 除了scrapy这个爬虫框架外，还可以引入基于密度的正文提取，只有这样子才可以做到泛化内容提取。
 ## 现有数据
-百度Ai
-https://ai.baidu.com/broad/download?dataset=duconv
 
-找到Information Extraction下载就是了。
-
+| [百度Ai开放数据](https://ai.baidu.com/broad/download?dataset=duconv)|找到Information Extraction和Knowledge Extraction下载就是了。一个信息提取，一个知识提取感觉差距都不是很多，规定了几十种关系，想要做到开放数据提取还要更多的标记才行。|
+| [tmark_Description开源描述标注](https://www.terrychan.org/tmark_Description/)|基于实体提取对应文章中的描述|
 
 ## 标注数据（准备数据）
 这是一切的开始。[开源描述标注](https://www.terrychan.org/tmark_Description/)

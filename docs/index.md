@@ -27,6 +27,30 @@ BERT中注意力机制真的很强。
 ## 文本数据（准备数据）
 这里应该是祭出爬虫的时候了。
 除了scrapy这个爬虫框架外，还可以引入基于密度的正文提取，只有这样子才可以做到泛化内容提取。
+[readability-lxml](https://github.com/buriy/python-readability)
+
+```
+$ pip install readability-lxml
+```
+
+使用效果
+```
+>>> import requests
+>>> from readability import Document
+
+>>> response = requests.get('http://example.com')
+>>> doc = Document(response.text)
+>>> doc.title()
+'Example Domain'
+
+>>> doc.summary()
+"""<html><body><div><body id="readabilityBody">\n<div>\n    <h1>Example Domain</h1>\n
+<p>This domain is established to be used for illustrative examples in documents. You may
+use this\n    domain in examples without prior coordination or asking for permission.</p>
+\n    <p><a href="http://www.iana.org/domains/example">More information...</a></p>\n</div>
+\n</body>\n</div></body></html>"""
+
+```
 ## 现有数据
 | 数据 | 描述 |
 | ------------ | ------------ |
